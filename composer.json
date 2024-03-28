@@ -1,0 +1,34 @@
+{
+  "name": "phrlog/php-deadline",
+  "description": "Small library implementing client-side deadline",
+  "type": "library",
+  "keywords": [
+    "composer",
+    "deadline",
+    "timeout"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Phrlog",
+      "email": "phrlog@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5 || ^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "phrlog\\Deadline\\": "./src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "phrlog\\Deadline\\Tests\\": "./tests/"
+    }
+  }
+}
